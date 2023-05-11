@@ -1,0 +1,218 @@
+body{
+    background-color: rgb(41, 177, 64);
+    width: 100%;
+    overflow-x: hidden;
+    margin-left: 0px;
+}
+.A2{
+    width: 300px;
+    height: 100px;
+    border: 5px red;
+    background-color: rgb(236, 16, 52);
+    border-radius: 25px;
+    border: 5px black;
+    text-align: center;
+    margin-left: 300px;
+    box-shadow: 5px 5px 5px gray;
+    text-shadow: 5px 5px 5px rgb(224, 15, 50);
+    position:  relative;
+    top: 0px; 
+    right:200px ;
+    left: 200px;
+    font-size: 30px;
+    padding: 20px;
+}
+
+    .A{
+        position: absolute;
+        height: 200px;
+        width: 100%;
+    
+    }
+    .hr1{
+        position: inherit;
+        bottom: 10px;
+        width: 100%;
+        
+    }
+    .hr2{
+        position: inherit;
+        bottom: 5px;
+        width: 100%;
+    }
+    .parent{
+        height: 600px;
+        width: 100%;
+        position: absolute;
+        border: 5px solid rgb(240, 158, 26);
+        margin-top: 200px;
+        background-color: rgb(187, 173, 44);
+        
+    }
+    .top1{
+        font-size: 25px;
+        color: black;
+        height: 200px;
+        width: 200px;
+        border: 5px solid palevioletred;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        border-radius: 25px;
+        padding: 10px;
+        text-align: center;
+        line-height: 30px;
+        box-shadow: 3px 3px 5px rgb(167, 127, 202);
+        text-shadow: 3px 3px 5px rgb(114, 3, 55) ;
+        background-color: rgb(255, 192, 207);
+    }
+    .top2{
+        font-size: 30px;
+        height: 200px;
+        width: 200px;
+        border: 5px solid palevioletred;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        text-align: center;
+        border-radius: 25px;
+    padding: 10px;
+    background-color: rgb(255, 192, 207);
+    box-shadow: 3px 3px 5px rgb(62, 3, 114);
+    
+    }
+    img{
+        height: 180px;
+        width: 180px;
+
+    }
+    .bottom1{
+        font-size: 25px;
+        color: black;
+        height: 200px;
+        width: 200px;
+        border: 5px solid palevioletred;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        border-radius: 25px;
+        padding: 10px;
+        line-height: 30px;
+        box-shadow: 3px 3px 5px rgb(62, 3, 114);
+        text-shadow: 3px 3px 5px rgb(62, 3, 114) ;
+        background-color: rgb(255, 192, 207);
+        
+    }
+    .b2{
+        color: black;
+        height: 200px;
+        width: 200px;
+        border: 5px solid palevioletred;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        border-radius: 25px;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+        line-height: 25px;
+        box-shadow: 3px 3px 5px rgb(62, 3, 114);
+        text-shadow: 3px 3px 5px rgb(62, 3, 114) ;
+        background-color: rgb(255, 192, 207);
+    }
+    .button{
+        background-color: red;
+        width: 60px;
+        height: 30px;
+        border-radius: 5px;
+
+    }
+    .button:hover{
+        background-color: aquamarine;
+    }
+    .first{
+        color: rgb(105, 4, 9);
+        font-size: 20px;
+        width: 300px;
+        text-align: center;
+    
+    }
+    .second{
+        color: rgb(105, 4, 9);
+        width: 200px;
+        text-align: center;
+    }
+
+        .fixed{
+            background-color: rgb(105, 128, 64);
+            border: 5px solid rgb(86, 6, 32);
+            box-shadow: 5px 5px 5px rgb(196, 81, 148);
+            width: 500px;
+            border-radius: 25px;
+            position: fixed;
+            left: 400px;
+            top: 500px;
+            align-items: center;
+            padding: 5px;
+            display: inline-block;
+            display: flex;
+            flex-wrap: wrap;
+        
+        
+        }
+        .main{
+            background-color: rgb(4, 161, 106);
+            border: 5px solid rgb(176, 85, 6);
+            width: 900px;
+            margin-left: 300px;
+            position: absolute;
+            margin-top: 900px;
+            
+            
+        }
+        .head{
+         width: inherit;
+         color: black;
+         font-size: 20px;
+         font-style: italic;
+         text-align: center;
+        }
+        .h1{
+            font-style: italic;
+            font-size: 25px;
+            color: black;
+        }
+        .font{
+            color: black;
+        }
+        .left{
+            background-color: rgb(182, 154, 15);
+            color: black;
+            height: 200px;
+            width: 400px;
+            text-align: center;
+            padding: 10px;
+            border: 5px solid rgb(4, 161, 106);;
+            
+        
+        }
+        .right{
+            background-color: rgb(182, 154, 15);
+            color: black;
+            height: 200px;
+            width: 400px;
+            text-align: center;
+            position: inherit;
+            right: 0px;
+            top: 85px;
+            padding: 10px;
+            border: 5px solid rgb(4, 161, 106);;
+        
+        }
+        .last{
+            background-color: rgb(182, 154, 15);
+            color: black;
+            text-align: center;
+            padding: 10px;
+            border: 5px solid rgb 16   
+        }                                             
